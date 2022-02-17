@@ -1,0 +1,25 @@
+.header-wrapper {
+	header.header-nav nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: $headerMarginTopBottom;
+		margin-bottom: $headerMarginTopBottom;
+
+		ul.nav-left {
+			flex: 1;
+		}
+		ul.nav-right {
+			flex: 2;
+			display: flex;
+			justify-content: flex-end;
+			flex-direction: row;
+
+			li {
+				display: grid;
+				place-content: center;
+				margin-left: $headerMarginLink;
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.projects {
+	.projects-title {
+		font-size: 48px;
+		color: #1f2937;
+		font-weight: bold;
+		text-align: center;
+		.special-text {
+			color: #3730a3;
+		}
+	}
+	.projects-body {
+		display: flex;
+		flex-direction: row;
+		.projects-right {
+			flex: 1;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			padding: 50px;
+			grid-gap: 0 20px;
+		}
+	}
+}
+
+@import './SingleProject/styles.scss';

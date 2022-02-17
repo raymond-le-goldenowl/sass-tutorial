@@ -1,0 +1,25 @@
+.contact {
+	text-align: center;
+	padding: 100px 0;
+	background: #fef2f2;
+	font-family: $defaultFontFamily;
+	.title {
+		font-size: 48px;
+		color: #374151;
+	}
+	.tiny-caption {
+		width: 35%;
+		margin: auto auto;
+		margin-top: 30px;
+		font-size: 18px;
+		color: #9ca3af;
+	}
+	.social-icons {
+		width: 20%;
+		margin: auto auto;
+		margin-top: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+}

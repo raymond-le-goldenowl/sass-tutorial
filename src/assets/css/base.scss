@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import '_reset.scss';
+
+// make app center horizontal.
+.app-width {
+	max-width: 65%;
+	margin: 0 auto;
+}
+
+@import '_variable.scss';
+@import 'A/styles.scss';
+@import 'Logo/styles.scss';
+@import 'Header/styles.scss';
+@import 'Divider/styles.scss';
+@import 'BasicInformation/styles.scss';
+@import 'Projects/styles.scss';
+@import 'Customers/styles.scss';
+@import 'FeaturedProjects/styles.scss';
+@import 'Majors/styles.scss';
+@import 'Careers/styles.scss';
+@import 'Contact/styles.scss';

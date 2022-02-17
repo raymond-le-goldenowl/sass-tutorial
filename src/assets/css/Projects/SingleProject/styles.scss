@@ -1,0 +1,23 @@
+.single-project {
+	.project-title {
+		font-size: 18px;
+		font-weight: 600;
+		color: #1f2937;
+	}
+	.project-desc {
+		font-size: 12px;
+		margin-top: 30px;
+		color: #6b7280;
+	}
+	.project-link {
+		.link-wrapper {
+			a.link {
+				display: flex;
+				font-size: 12px;
+				margin-top: 30px;
+				color: #3730a3;
+				align-items: center;
+			}
+		}
+	}
+}

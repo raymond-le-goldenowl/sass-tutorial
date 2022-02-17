@@ -1,0 +1,25 @@
+@mixin aLinkSize {
+	border-radius: $btnBorderRadius;
+	border: 1px solid $btnColorBase;
+	padding: $btnPaddingTopBottom $btnPaddingLeftRight;
+}
+.link-wrapper {
+	a.link {
+		display: inline-block;
+		text-decoration: none;
+		font-size: $btnTextSize;
+		color: $btnTextColorDefault;
+		font-family: $defaultFontFamily;
+		font-weight: $btnFontWeight;
+	}
+	a.border {
+		@include aLinkSize;
+		color: $btnColorBase;
+	}
+
+	a.bg {
+		color: #fff;
+		@include aLinkSize;
+		background-color: $btnColorBase;
+	}
+}

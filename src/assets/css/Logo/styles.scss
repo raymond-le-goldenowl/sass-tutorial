@@ -1,0 +1,15 @@
+.logo-wrapper {
+	display: grid;
+	width: $logoWidth;
+	height: $logoHeight;
+	place-content: center;
+	border-radius: $logoRadius;
+	background-color: $logoBackgroundColor;
+	.logo-text {
+		color: $logoTextColor;
+		transform: rotate(30deg);
+		font-size: $logoFontSize;
+		font-weight: $logoFontWeight;
+		font-family: $defaultFontFamily;
+	}
+}
